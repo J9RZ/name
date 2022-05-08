@@ -1,7 +1,10 @@
+-- Gui to Lua
+-- Version: 3.2
 
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
+local Frame = Instance.new("Frame")
 local script1 = Instance.new("TextButton")
 local script2 = Instance.new("TextButton")
 local TextLabel = Instance.new("TextLabel")
@@ -11,59 +14,57 @@ local TextLabel_2 = Instance.new("TextLabel")
 
 ScreenGui.Parent = game.CoreGui
 
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-main.BorderColor3 = Color3.fromRGB(93, 93, 93)
-main.Position = UDim2.new(0.0863157883, 0, 0.0735586509, 0)
-main.Size = UDim2.new(0, 223, 0, 156)
-main.Active = true
-main.Draggable = true
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame.Position = UDim2.new(0.0792079195, 0, 0.099065423, 0)
+Frame.Size = UDim2.new(0, 214, 0, 185)
+Frame.Active = true
+Frame.Draggable = true
 
 script1.Name = "script1"
-script1.Parent = ScreenGui
+script1.Parent = Frame
 script1.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-script1.BorderColor3 = Color3.fromRGB(30, 30, 30)
-script1.Position = UDim2.new(0.138947368, 0, 0.0934393629, 0)
-script1.Size = UDim2.new(0, 172, 0, 48)
+script1.BorderColor3 = Color3.fromRGB(38, 38, 36)
+script1.Position = UDim2.new(0.0794392526, 0, 0.138810813, 0)
+script1.Size = UDim2.new(0, 180, 0, 43)
 script1.Font = Enum.Font.SourceSans
 script1.Text = "Swagmode Crasher"
 script1.TextColor3 = Color3.fromRGB(255, 255, 255)
 script1.TextSize = 14.000
+script1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 script1.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
 
-
 script2.Name = "script2"
-script2.Parent = ScreenGui
+script2.Parent = Frame
 script2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-script2.BorderColor3 = Color3.fromRGB(85, 85, 85)
-script2.Position = UDim2.new(0.138947368, 0, 0.260437369, 0)
-script2.Size = UDim2.new(0, 172, 0, 37)
+script2.BorderColor3 = Color3.fromRGB(38, 38, 38)
+script2.Position = UDim2.new(0.0794392526, 0, 0.540540576, 0)
+script2.Size = UDim2.new(0, 180, 0, 33)
 script2.Font = Enum.Font.SourceSans
-script2.Text = "Encrypt QuickCrasher"
+script2.Text = "Encrypt Crasher"
 script2.TextColor3 = Color3.fromRGB(255, 255, 255)
 script2.TextSize = 14.000
 script2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
 end)
 
-TextLabel.Parent = ScreenGui
+TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-TextLabel.BorderColor3 = Color3.fromRGB(18, 18, 18)
-TextLabel.Position = UDim2.new(0.0863157883, 0, 0.20477137, 0)
-TextLabel.Size = UDim2.new(0, 115, 0, 24)
+TextLabel.BorderColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel.Position = UDim2.new(0.0794392526, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 83, 0, 18)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = ".Joshh#2000 "
+TextLabel.Text = ".Joshh#2000"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
 
-TextLabel_2.Parent = ScreenGui
+TextLabel_2.Parent = Frame
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
-TextLabel_2.BorderColor3 = Color3.fromRGB(18, 18, 18)
-TextLabel_2.Position = UDim2.new(0.370526284, 0, 0.204771355, 0)
-TextLabel_2.Size = UDim2.new(0, 76, 0, 24)
+TextLabel_2.BorderColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_2.Position = UDim2.new(0.0794392526, 0, 0.854054034, 0)
+TextLabel_2.Size = UDim2.new(0, 89, 0, 21)
 TextLabel_2.Font = Enum.Font.SourceSans
 TextLabel_2.Text = "gg/KYzMxtbkFW "
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
