@@ -4,6 +4,8 @@ local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local script1 = Instance.new("TextButton")
 local script2 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -32,6 +34,7 @@ script1.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
 
+
 script2.Name = "script2"
 script2.Parent = ScreenGui
 script2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
@@ -45,3 +48,23 @@ script2.TextSize = 14.000
 script2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
 end)
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+TextLabel.BorderColor3 = Color3.fromRGB(18, 18, 18)
+TextLabel.Position = UDim2.new(0.0863157883, 0, 0.20477137, 0)
+TextLabel.Size = UDim2.new(0, 115, 0, 24)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = ".Joshh#2000 "
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = ScreenGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+TextLabel_2.BorderColor3 = Color3.fromRGB(18, 18, 18)
+TextLabel_2.Position = UDim2.new(0.370526284, 0, 0.204771355, 0)
+TextLabel_2.Size = UDim2.new(0, 76, 0, 24)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "gg/KYzMxtbkFW "
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
